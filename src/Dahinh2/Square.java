@@ -1,0 +1,63 @@
+package Dahinh2;
+
+public class Square extends Rectangle {
+    public Square() {
+
+    }
+
+    public double getSide() {
+        return length;
+    }
+
+    public void setSide(double side) {
+        this.length = side;
+        this.width = side;
+    }
+
+    @Override
+    public void setWidth(double side) {
+        super.setWidth(side);
+    }
+
+    @Override
+    public void setLength(double side) {
+        super.setLength(side);
+    }
+
+
+    public Square(double side) {
+        this.length = side;
+        this.width = side;
+    }
+
+    public Square(double side, String color, boolean filled) {
+        this.width = side;
+        this.length = side;
+        this.color = color;
+        this.filled = filled;
+    }
+
+    public Square(Point topLeft, double side, String color, boolean filled) {
+        this.topLeft = topLeft;
+        this.width = side;
+        this.length = side;
+        this.color = color;
+        this.filled = filled;
+    }
+
+    /**
+     * Hinh vuong.
+     *
+     * @return square format.
+     */
+    @Override
+    public String toString() {
+        return "Square["
+                + "topLeft" + topLeft
+                + "side=" + length
+                + ",color=" + color
+                + ",filled=" + filled
+                + "]";
+    }
+}
+
