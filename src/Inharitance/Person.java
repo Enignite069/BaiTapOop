@@ -32,6 +32,6 @@ public class Person {
      * @return tên và địa chỉ.
      */
     public String toString() {
-        return "Person[name=" + getName() + ",address=" + getAddress() + "]";
+        return "Abstract.Person[name=" + getName() + ",address=" + getAddress() + "]";
     }
 }

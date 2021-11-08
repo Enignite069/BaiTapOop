@@ -57,7 +57,7 @@ public class Circle extends Shape {
      */
     @Override
     public String toString() {
-        return "Circle["
+        return "Interface.Circle["
                 + "center=" + center
                 + ",radius=" + radius
                 + ",color=" + color

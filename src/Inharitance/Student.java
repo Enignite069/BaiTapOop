@@ -6,7 +6,7 @@ public class Student extends Person {
     private double fee;
 
     /**
-     * super kế thừa từ Person.
+     * super kế thừa từ Abstract.Person.
      * @param name tên.
      * @param address địa chỉ.
      * @param program khóa học.
